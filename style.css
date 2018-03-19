@@ -5,10 +5,10 @@
     height: 150px;
     width: 150px;
     margin: auto;
-    text-align: center; 
+    text-align: center;
+    vertical-align: middle; 
     display: inline-flex;
     position: relative;
-    overflow-wrap: normal;
 }
 .arrowimg{
     height: 100px;
@@ -21,9 +21,14 @@
 a{
     text-decoration: none;
 }
-span{
-    margin-top: 100px
-    margin-left: 50px;
+span {
     height: 100px;
     width: 100px;
+    margin-top: 40px;
+    margin-left: 25px;
+    position: relative;
+}
+body{
+    text-align: center;
+    font-family: cursive;
 }
