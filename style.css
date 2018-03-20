@@ -7,11 +7,13 @@
     text-align: center;
     vertical-align: middle; 
     background-size: cover;
-    opacity: .4;
+    opacity: .6;
 }
 
 .days {
     border-radius: 100px;
+    border: 2px solid black;
+    background-color: white;
     height: 150px;
     width: 150px;
     margin: auto;
@@ -30,10 +32,6 @@
     display: inline-flex;
     position: relative;
 }
-#arrow{
-    width: 50px;
-    margin-left: auto;
-}
 
 span {
     height: 50px;
@@ -41,14 +39,13 @@ span {
     margin-top: 40px;
     margin-left: 25px;
     position: relative;
-    opacity: 1;
+    font-weight: bold;
 }
-.arrows {
-    font-size: 3em; 
-}
+
 body{
     text-align: center;
     font-family: cursive;
+    background-color:black
 }
 img{
     width: 200px;
@@ -70,4 +67,20 @@ img{
 }
 div:hover {
     opacity: 1;
+}
+
+#mainpagecenter {
+    background-image: url("images/stlouistofortcollins.jpg");
+    background-size: cover;
+}
+
+#mainpageupper {
+    height: 275px;
+    background-image: url("images/Some Mountains.jpg");
+    background-size: cover;
+}
+#mainpagelower{
+    height:300px;
+    background-image: url("images/fortcollins.jpg");
+    background-size:cover;
 }
