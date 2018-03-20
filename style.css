@@ -1,3 +1,15 @@
+.background {
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    display: inline-flex;
+    text-align: center;
+    vertical-align: middle; 
+    background-size: cover;
+    opacity: .4;
+}
+
 .days {
     border-radius: 100px;
     height: 150px;
@@ -7,7 +19,7 @@
     vertical-align: middle; 
     display: inline-flex;
     position: relative;
-    opacity: 1; 
+
 }
 .arrows {
     height: 150px;
@@ -32,6 +44,7 @@ span {
     margin-top: 40px;
     margin-left: 25px;
     position: relative;
+    opacity: 1;
 }
 .arrows {
     font-size: 3em; 
@@ -43,19 +56,9 @@ body{
 img{
     width: 200px;
     height: auto;
+    opacity: .3;
 }
-.background {
-    border-radius: 100px;
-    height: 150px;
-    width: 150px;
-    margin: auto;
-    text-align: center;
-    vertical-align: middle; 
-    display: inline-flex;
-    position: relative;
-    opacity: .9;
-    background-size: cover;
-}
+
 #day1 {
     background-image: url("images/RedDrank.jpg");
 }
