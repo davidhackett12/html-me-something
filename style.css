@@ -60,5 +60,18 @@ img{
 }
 
 #day1 {
+    background-image: url("images/DrearyoldKansas.jpg");
+}
+#day2{
+    background-image: url("images/Kellylostinbrewery.jpg");
+}
+#day3{
     background-image: url("images/RedDrank.jpg");
+}
+
+#day4{
+    background-image: url("images/KellyDavidJustinreunion.jpg");
+}
+div:hover {
+    opacity: 1;
 }
