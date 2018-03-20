@@ -1,7 +1,5 @@
 .days {
     border-radius: 100px;
-	border: 2px solid #6495ED;
-	background-color: #BCD2EE;
     height: 150px;
     width: 150px;
     margin: auto;
@@ -9,17 +7,24 @@
     vertical-align: middle; 
     display: inline-flex;
     position: relative;
+    opacity: 1; 
 }
-.arrowimg{
-    height: 100px;
-    width: 100px;
+.arrows {
+    height: 150px;
+    width: 50px;
     margin: auto;
     text-align: center;
-    display: inline-flex; 
+    vertical-align: middle; 
+    display: inline-flex;
     position: relative;
+}
+#arrow{
+    width: 50px;
+    margin-left: auto;
 }
 a{
     text-decoration: none;
+    color: black;
 }
 span {
     height: 100px;
@@ -28,6 +33,9 @@ span {
     margin-left: 25px;
     position: relative;
 }
+.arrows {
+    font-size: 3em; 
+}
 body{
     text-align: center;
     font-family: cursive;
@@ -35,4 +43,19 @@ body{
 img{
     width: 200px;
     height: auto;
+}
+.background {
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle; 
+    display: inline-flex;
+    position: relative;
+    opacity: .9;
+    background-size: cover;
+}
+#day1 {
+    background-image: url("images/RedDrank.jpg");
 }
