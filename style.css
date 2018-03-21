@@ -1,7 +1,7 @@
 .background {
-    border-radius: 100px;
-    height: 150px;
-    width: 150px;
+    border-radius: 10em;
+    height: 15em;
+    width: 15em;
     position: absolute;
     display: inline-flex;
     text-align: center;
@@ -11,11 +11,11 @@
 }
 
 .days {
-    border-radius: 100px;
-    border: 2px solid black;
+    border-radius: 10em;
+    border: .2em solid black;
     background-color: white;
-    height: 150px;
-    width: 150px;
+    height: 15em;
+    width: 15em;
     margin: auto;
     text-align: center;
     vertical-align: middle; 
@@ -24,20 +24,18 @@
 
 }
 .arrows {
-    height: 150px;
-    width: 50px;
+    height: 15em;
+    width: 5em;
     margin: auto;
-    text-align: center;
-    vertical-align: middle; 
     display: inline-flex;
     position: relative;
 }
 
 span {
-    height: 50px;
-    width: 100px;
-    margin-top: 40px;
-    margin-left: 25px;
+    height: 5em;
+    width: 10em;
+    margin-top: 4em;
+    margin-left: 2.5em;
     position: relative;
     font-weight: bold;
 }
@@ -45,10 +43,10 @@ span {
 body{
     text-align: center;
     font-family: cursive;
-    background-color:black
+    background-color:white;
 }
 img{
-    width: 200px;
+    width: 20em;
     height: auto;
 }
 
@@ -75,12 +73,21 @@ div:hover {
 }
 
 #mainpageupper {
-    height: 275px;
+    height: 27.5em;
     background-image: url("images/Some Mountains.jpg");
     background-size: cover;
 }
 #mainpagelower{
-    height:300px;
+    height:30em;
     background-image: url("images/fortcollins.jpg");
     background-size:cover;
+}
+main{
+    text-align: justify;
+}
+p{
+    width: 20em;
+}
+.test{
+    display: inline-table;
 }
