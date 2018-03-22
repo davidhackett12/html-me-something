@@ -21,7 +21,6 @@
     vertical-align: middle; 
     display: inline-flex;
     position: relative;
-
 }
 .arrows {
     height: 15em;
@@ -42,8 +41,8 @@ span {
 
 body{
     text-align: center;
-    font-family: cursive;
-    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:skyblue;
 }
 img{
     width: 20em;
@@ -82,12 +81,6 @@ div:hover {
     background-image: url("images/fortcollins.jpg");
     background-size:cover;
 }
-main{
-    text-align: justify;
-}
-p{
-    width: 20em;
-}
-.test{
-    display: inline-table;
-}
+
+
+
