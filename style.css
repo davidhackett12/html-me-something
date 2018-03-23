@@ -82,5 +82,9 @@ div:hover {
     background-size:cover;
 }
 
+main div{
+    padding: 2em
+}
+
 
 
